@@ -40,6 +40,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ./FRONTEND #change this 
-          file: ./FRONTEND/frontend.Dockerfile #change this 
+          file: ./FRONTEND/frontend.Dockerfile #change this a
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/exam-frontend:latest #same as in fullstack-deployment.yml
